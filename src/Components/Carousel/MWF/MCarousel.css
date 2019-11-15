@@ -1,0 +1,214 @@
+.mwf-hero-carousel .m-hero div.c-carousel-p ul, .mwf-hero-carousel .m-hero div.c-carousel-p ul > li.show.f-active {
+	display:block !important;
+}
+.mwf-hero-carousel .m-hero div.c-group .c-sequence-indicator button.show {
+	display:inline-block !important;
+}
+.mwf-hero-carousel .m-hero div.c-carousel-p ul > li.show, .mwf-hero-carousel .m-hero div.c-carousel-p ul > li:not(.show) {
+	display:none !important;
+}
+.mwf-hero-carousel .m-hero-item > div > div {
+	max-width:none;
+}
+.mwf-hero-carousel .m-hero-item .m-hero-c-bg .c-heading {
+	display:inline;
+}
+.mwf-hero-carousel .m-hero div.c-carousel-p ul > li .hero-c-bg .hero-c-links ul > li, .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links ul > li {
+	display:inline !important;
+}
+.mwf-hero-carousel .m-hero div.c-carousel-p ul > li .hero-c-bg .hero-c-links ul > li a.c-call-to-action:not(.theme-transparent), .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links ul > li a.c-call-to-action:not(.theme-transparent) {
+	margin-right:20px;
+	margin-top:5px;
+}
+.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links ul > li:last-child a.c-call-to-action:not(.theme-transparent) {
+	margin-right:0 !important;
+}
+.mwf-hero-carousel div a.c-call-to-action.theme-dark:focus, .mwf-hero-carousel div a.c-call-to-action.theme-light:hover {
+	border-color:transparent;
+}
+.mwf-hero-carousel .m-hero.f-x-center div.c-carousel-p ul > li .hero-c-bg .hero-c-links ul > li a.c-call-to-action, .mwf-hero-carousel .m-hero-item.f-x-center > div > div .hero-c-bg .hero-c-links a.c-call-to-action {
+	text-align:center;
+}
+.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links a.c-call-to-action.theme-default:not(.theme-light):not(.theme-dark):focus, .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links a.c-call-to-action.theme-default:not(.theme-light):not(.theme-dark):hover {
+	background:#005da6;
+}
+.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg.light-background .hero-c-links a.c-call-to-action.theme-light:not(.theme-dark):not(.theme-default):focus, .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg.light-background .hero-c-links a.c-call-to-action.theme-light:not(.theme-dark):not(.theme-default):hover {
+	background:#1a1a1a !important;
+}
+.mwf-hero-carousel .m-hero .m-hero-item.theme-dark .hero-c-bg.dark-background a.c-call-to-action.theme-light:not(.theme-transparent):focus {
+	background:#333;
+}
+.mwf-hero-carousel .light-background p, .mwf-hero-carousel .light-background .hero-heading *, .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg.light-background .hero-c-links a.c-call-to-action:not(.theme-transparent):not(.theme-light):not(.theme-dark):not(.theme-default) {
+	color:#000000;
+}
+.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links a.c-call-to-action.theme-default:not(.theme-light):not(.theme-dark) {
+	background:#0067b8;
+}
+.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links a.c-call-to-action.theme-default:not(.theme-light):not(.theme-dark):active {
+	background:#005293;
+}
+.mwf-hero-carousel .m-hero div.c-carousel-p ul > li .hero-c-bg .hero-c-links ul > li a.c-call-to-action.theme-dark:not(.theme-transparent):hover, .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links a.c-call-to-action.theme-dark:not(.theme-transparent):not(.theme-light):not(.theme-default):hover {
+	background:#e6e6e6;
+}
+.mwf-hero-carousel .m-hero div.c-carousel-p ul > li .hero-c-bg .hero-c-links ul > li a.c-call-to-action.theme-dark:not(.theme-transparent) {
+	background:#ffffff;
+	color:#000000;
+}
+.mwf-hero-carousel .m-hero-item .hero-c-bg .hero-c-links.hero-buttons {
+	display:inline-block !important;
+}
+.mwf-hero-carousel .m-hero-item .hero-c-bg .hero-c-links.hero-buttons ul li {
+	width:auto;
+	float:left;
+}
+.mwf-hero-carousel .m-hero-item.f-x-center .hero-c-bg .hero-c-links.hero-buttons ul li {
+	float:none;
+}
+.mwf-hero-carousel .m-hero-item .hero-c-bg .hero-c-links a.c-call-to-action:not(.theme-transparent) span:hover {
+	text-decoration:none;
+}
+@media only screen and (min-width:768px) {
+	.mwf-hero-carousel .m-hero-item > div {
+		width:90%;
+	}
+	.mwf-hero-carousel .m-hero-item.f-x-left .hero-c-bg, .mwf-hero-carousel .m-hero-item.f-x-right .hero-c-bg {
+		text-align:left;
+	}
+	.mwf-hero-carousel .m-hero-item.f-x-center > div > div .hero-c-bg .hero-c-links ul > li:last-child a.c-call-to-action:not(.theme-transparent), .mwf-hero-carousel .m-hero-item.f-x-center > div > div .hero-c-bg .hero-c-links ul > li a.c-call-to-action:not(.theme-transparent) {
+		margin-left:10px !important;
+		margin-right:10px !important;
+	}
+	.mwf-hero-carousel .m-hero-item.f-x-center > div > div .hero-c-bg .hero-c-links ul > li a.c-call-to-action.theme-transparent {
+		padding-right:0px;
+		margin-right:0px;
+	}
+}
+@media only screen and (max-width:767px) {
+	.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links a.c-call-to-action {
+		text-align:center;
+	}
+	.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links ul > li:last-child a.c-call-to-action:not(.theme-transparent), .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links ul > li a.c-call-to-action:not(.theme-transparent) {
+		margin-left:10px !important;
+		margin-right:10px !important;
+	}
+	.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links ul > li a.c-call-to-action.theme-transparent {
+		padding-right:0px;
+	}
+}
+@media only screen and (min-width:540px) and (max-width:767px) {
+	.mwf-hero-carousel ul li .m-hero-item > div, .mwf-hero-carousel .m-hero .m-hero-item.single-hero-item > div {
+		position:absolute;
+		height:100%;
+	}
+	.mwf-hero-carousel .m-hero-item .hero-c-bg .hero-c-links.hero-buttons ul li {
+		float:none;
+	}
+}
+@media only screen and (min-width:540px) {
+	.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg.light-background {
+		background:rgba(255, 255, 255, 0.9);
+	}
+	.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg.dark-background {
+		background:rgba(0, 0, 0, 0.8);
+	}
+	.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg {
+		padding:0 8.33% 5%;
+	}
+	.mwf-hero-carousel .c-carousel-p:not(.auto-height) .m-hero-item > picture img, .mwf-hero-carousel .hero-single-slide-item:not(.auto-height) .m-hero-item > picture img, .mwf-hero-carousel .c-carousel-p.height-590:not(.auto-height) .m-hero-item > picture img, .mwf-hero-carousel .hero-single-slide-item.height-590:not(.auto-height) .m-hero-item > picture img {
+		position:relative;
+		height:100%;
+		max-width:none;
+		width:auto;
+		left:50%;
+		transform:translateX(-50%);
+		-webkit-transform:translateX(-50%);
+	}
+	.mwf-hero-carousel .hero-single-slide-item:not(.auto-height) .m-hero-item > picture img, .mwf-hero-carousel .hero-single-slide-item.height-590:not(.auto-height) .m-hero-item > picture img {
+		float:left;
+	}
+	.mwf-hero-carousel .c-carousel-p:not(.auto-height) ul li .m-hero-item > picture img {
+		left:0 !important;
+		transform:none !important;
+		-webkit-transform:none !important;
+	}
+	.mwf-hero-carousel .m-hero .c-carousel-p.height-500:not(.auto-height) .m-hero-item, .mwf-hero-carousel .m-hero .hero-single-slide-item.height-500:not(.auto-height) .m-hero-item {
+		height:500px !important;
+	}
+	.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg.light-background .hero-c-links a.c-call-to-action.theme-transparent {
+		color:#0078d7;
+	}
+	.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg.light-background .hero-c-links a.c-call-to-action:not(.theme-transparent):not(.theme-light):not(.theme-dark):not(.theme-default):hover, .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg.light-background .hero-c-links a.c-call-to-action:not(.theme-transparent):not(.theme-light):not(.theme-dark):not(.theme-default):focus {
+		background:#e6e6e6 !important;
+	}
+	.mwf-hero-carousel .m-hero-item > div > div .hero-c-bg.dark-background .hero-c-links a.c-call-to-action:not(.theme-transparent):not(.theme-light):not(.theme-dark):not(.theme-default):focus, .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg.dark-background .hero-c-links a.c-call-to-action:not(.theme-transparent):not(.theme-light):not(.theme-dark):not(.theme-default):hover, .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links a.c-call-to-action.theme-light:not(.theme-dark):not(.theme-default):focus, .mwf-hero-carousel .m-hero-item > div > div .hero-c-bg .hero-c-links a.c-call-to-action.theme-light:not(.theme-dark):not(.theme-default):hover {
+		background:#1a1a1a !important;
+	}
+	.mwf-hero-carousel .m-hero-item.f-x-center .hero-c-bg .hero-c-links.hero-buttons ul li.scr-fl {
+		float:left !important;
+	}
+}
+@media only screen and (max-width:539px) {
+	.mwf-hero-carousel .m-hero .m-hero-item.theme-dark .hero-c-bg .hero-heading *, .mwf-hero-carousel .m-hero .m-hero-item.theme-dark .hero-c-bg p, .mwf-hero-carousel .m-hero .m-hero-item.theme-dark .hero-c-bg .hero-c-links a.c-call-to-action.theme-transparent {
+		color:#fff;
+	}
+	.mwf-hero-carousel .m-hero .m-hero-item.theme-light .hero-c-bg .hero-heading *, .mwf-hero-carousel .m-hero .m-hero-item.theme-light .hero-c-bg p {
+		color:#000 !important;
+	}
+	.mwf-hero-carousel .m-hero .m-hero-item.theme-light .hero-c-bg .hero-c-links a.c-call-to-action.theme-transparent {
+		color:#0078d7 !important;
+	}
+	.mwf-hero-carousel .m-hero-item > div {
+		width:100%;
+	}
+	.mwf-hero-carousel .m-hero .hero-single-slide-item .m-hero-item .fn {
+		height:auto;
+	}
+	.mwf-hero-carousel .m-hero .hero-single-slide-item .m-hero-item > div > div {
+		top:0;
+		transform:none;
+	}
+	.mwf-hero-carousel .m-hero-item.theme-light > div > div .hero-c-bg .hero-c-links a.c-call-to-action.theme-transparent {
+		color:#0078d7;
+	}
+	.mwf-hero-carousel .m-hero-item.theme-dark > div > div .hero-c-bg .hero-c-links a.c-call-to-action:not(.theme-transparent):not(.theme-light):not(.theme-dark):not(.theme-default):hover, .mwf-hero-carousel .m-hero-item.theme-dark > div > div .hero-c-bg .hero-c-links a.c-call-to-action:not(.theme-transparent):not(.theme-light):not(.theme-dark):not(.theme-default):focus {
+		background:#e6e6e6 !important;
+	}
+	.mwf-hero-carousel .m-hero-item.theme-light > div > div .hero-c-bg .hero-c-links a.c-call-to-action:not(.theme-transparent):not(.theme-light):not(.theme-dark):not(.theme-default):focus, .mwf-hero-carousel .m-hero-item.theme-light > div > div .hero-c-bg .hero-c-links a.c-call-to-action:not(.theme-transparent):not(.theme-light):not(.theme-dark):not(.theme-default):hover, .mwf-hero-carousel .m-hero-item.theme-light > div > div .hero-c-bg .hero-c-links a.c-call-to-action.theme-light:not(.theme-dark):not(.theme-default):focus, .mwf-hero-carousel .m-hero-item.theme-light > div > div .hero-c-bg .hero-c-links a.c-call-to-action.theme-light:not(.theme-dark):not(.theme-default):hover {
+		background:#1a1a1a !important;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:1083px) {
+	.mwf-hero-carousel .m-hero .m-hero-item > div > div {
+		width:80%;
+	}
+}
+@media only screen and (min-width:540px) and (max-width:1083px) {
+	.mwf-hero-carousel .m-hero .hero-single-slide-item:not(.auto-height) .m-hero-item, .mwf-hero-carousel .m-hero .c-carousel-p:not(.auto-height) .m-hero-item, .mwf-hero-carousel .m-hero .hero-single-slide-item.height-590:not(.auto-height) .m-hero-item, .mwf-hero-carousel .m-hero .c-carousel-p.height-590:not(.auto-height) .m-hero-item {
+		height:470px !important;
+	}
+}
+.mwf-hero-carousel .c-carousel li.f-animate-next .c-hero > picture img, .mwf-hero-carousel .c-carousel li.f-animate-next .m-hero-item > picture img {
+	animation:hero-background-next cubic-bezier(0.16, 1, 0.29, 0.99) 667ms both;
+}
+.mwf-hero-carousel .c-carousel li.f-animate-previous .c-hero > picture img, .mwf-hero-carousel .c-carousel li.f-animate-previous .m-hero-item > picture img {
+	animation:hero-background-previous cubic-bezier(0.16, 1, 0.29, 0.99) 667ms both;
+}
+.mwf-hero-carousel .m-hero-item > div {
+	max-width:1600px;
+}
+.mwf-hero-carousel .m-hero .m-hero-item {
+	height:auto !important;
+	padding:0 !important;
+}
+.mwf-hero-carousel .c-hero:before, .mwf-hero-carousel .m-hero-item:before {
+	padding:0 !important;
+}
+.mwf-hero-carousel .c-hero > picture, .mwf-hero-carousel .m-hero-item > picture {
+	position:relative;
+}
+.mwf-hero-carousel .c-hero > picture img, .mwf-hero-carousel .c-carousel-p .m-hero-item > picture img, .mwf-hero-carousel .hero-single-slide-item .m-hero-item > picture img {
+	position:relative;
+	left:0;
+	top:auto;
+	transform:none;
+}

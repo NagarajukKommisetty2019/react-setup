@@ -1,0 +1,93 @@
+/*Start of events-default-social-share*/
+.container.body-content { max-width: 100%; width: 100%; float: left; }
+.social-share-toolbar { width: 100%; float: left; }
+    .social-share-toolbar .follow-us { padding: 0; } 
+
+    .social-share-toolbar .social-share { text-align: right; padding: 0; }
+
+    .social-share-toolbar .social-share-label { float: none; display: inline-block; }
+
+    .social-share-toolbar ul { width: auto !important; vertical-align: top; padding-top: 4px; }
+    .social-share-toolbar .follow-us, .social-share-toolbar .social-share { margin-top: 10px; margin-bottom: 25px;}
+    .social-share-toolbar .follow-us h2, .social-share-toolbar .share-us h2 { padding-top: 3px; padding-bottom: 0; display: inline-block; }
+    .social-share-toolbar .share-us h2 { margin-right: 10px; }
+    .social-share-toolbar .share-us .social-share-links { float: right; }
+    .social-share-toolbar .follow-us .follow-us-links, .social-share-toolbar .social-share .share-us { display: inline-block; width: auto; }
+    .social-share-toolbar .social-share .share-us { float: right; }
+    .social-share-toolbar .follow-us .follow-us-links li, .social-share-toolbar .social-share .share-us li { display: inline-block; margin-right: 10px; float: left; }
+    .social-share-toolbar .youtube-user-follow-link img { height: 21px; width: auto; }
+    .social-share-toolbar.customized .youtube-user-follow-link img { height: 18px; width: auto; }
+    span.chk-high-contrast { background-image: url("//img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE137sB?ver=8ff3"); display: none; }
+        .social-share-toolbar .follow-us .follow-us-links a, .social-share-toolbar .share-us .social-share-links a { height: auto; width: auto; display: inline-block; float:left; margin-top:5px;
+    }
+    .m-social a:focus { outline: 2px solid #000; border:none !important}
+    @media screen and (max-width: 1083px) {
+        .social-share-toolbar .follow-us .follow-us-links a, .social-share-toolbar .share-us .social-share-links a {
+            margin-top: 0;
+        }
+    }
+    @media screen and (max-width: 539px) {
+  
+        .social-share-toolbar .social-share { text-align: left; }
+        .social-share-toolbar .social-share-label,
+        .social-share-toolbar .follow-us-label,
+        .social-share-toolbar ul { padding-top: 0; }
+        .social-share-toolbar .social-share .share-us,
+        .social-share-toolbar .share-us .social-share-links, .social-share-toolbar .share-us h2 { float: left; }
+        .social-share-toolbar .follow-us h2, .social-share-toolbar .share-us h2 { padding-top: 0; padding-bottom: 0; display: inline-block; }
+    }
+
+/*firefox high-contrast*/
+ .social-share-toolbar .c-social > a:focus::before,
+ .social-share-toolbar .c-social > a:hover::before,
+ .social-share-toolbar .c-social > ul > li > a:focus::before,
+ .social-share-toolbar .c-social > ul > li > a:hover::before,
+ .social-share-toolbar .m-social > a:focus::before,
+ .social-share-toolbar .m-social > a:hover::before,
+ .social-share-toolbar .m-social > ul > li > a:focus::before,
+ .social-share-toolbar .m-social > ul > li > a:hover::before,
+ .social-share-toolbar .m-social > ul > li a:hover,
+ .social-share-toolbar .m-social > ul > li a:focus,
+ .social-share-toolbar .social-share .share-us ul li a:hover,
+ .social-share-toolbar .social-share .follow-us ul li a:hover,  
+ .social-share-toolbar .social-share .follow-us ul li a:hover,
+ .social-share-toolbar .social-share .share-us ul li a:focus { background: transparent !important; }
+
+@media screen and (min-width: 1084px) {
+    .social-share-toolbar.customized{position:fixed;top:15%;z-index:999; background:transparent;width:auto;}
+    .social-share-toolbar.customized.only{top:30%;}
+    .social-share-toolbar.customized div[data-grid="container"]{padding:0;margin:0;width:auto;/*transform:rotate(180deg);*/}
+    .social-share-toolbar.customized .follow-us .follow-us-links,
+    .social-share-toolbar.customized .social-share .share-us{margin-left:0px;}
+    .social-share-toolbar.customized .follow-us,
+    .social-share-toolbar.customized .social-share { max-width:35px;margin-top: 10px;width:auto;background:#d7d7d7;float:none;position:relative;/*transform:rotate(180deg);*/}
+    .social-share-toolbar.customized .share-us h2,.social-share-toolbar.customized .follow-us h2{font-size:15px;line-height:18px;white-space: nowrap;}
+    .social-share-toolbar.customized .follow-us h2.arrange,
+    .social-share-toolbar.customized .share-us h2.arrange{ margin-right: 0px; width:100%;position:absolute;bottom:10px; left:-3px; transform:rotate(-90deg); -webkit-transform:rotate(-90deg); padding-left:10px;}
+    .social-share-toolbar.customized .follow-us ul,
+    .social-share-toolbar.customized .social-share .share-us ul{padding-left:0;margin-left:0;/*transform:rotate(180deg);*/}
+    .social-share-toolbar.customized .follow-us .follow-us-links li,
+    .social-share-toolbar.customized .social-share .share-us li { clear:both; display: block; float: none;margin-left:5px;margin-right:5px;margin-top:5px;/*transform:rotate(180deg)*/ }   
+}
+@media screen and (max-width: 1083px) {
+    .social-share-toolbar.customized .follow-us,
+    .social-share-toolbar.customized .social-share { height: auto !important; }
+    .social-share-toolbar.customized .youtube-user-follow-link img { height: 22px; width: auto; }
+    .social-share-toolbar .youtube-user-follow-link img { height: 22px; width: auto; }
+}
+@media screen and (max-width: 1083px) {
+    .social-share-toolbar.customized div[data-col-count="1"] * {float:left !important;}
+}
+.social-share-toolbar.normal div[data-col-count="1"] * {float:left !important;}
+.social-share-toolbar ul li a{
+    border:none !important;
+}
+.m-social > a::before, .m-social > ul > li > a::before, .c-social > a::before, .c-social > ul > li > a::before{
+    border:none !important;
+}
+@media screen and (-ms-high-contrast:active){
+.m-social > a, .m-social > ul > li > a, .c-social > a, .c-social > ul > li > a {
+        -ms-high-contrast-adjust: background;
+        background: none !important;
+    }
+}

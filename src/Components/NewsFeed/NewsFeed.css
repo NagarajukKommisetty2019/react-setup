@@ -1,0 +1,54 @@
+.news-feed {
+    width: 100%;
+    max-width: 100%;
+}
+
+.news-feed div.banner-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: table;
+    float: none;
+}
+.news-feed div.banner-container div {
+    /*display: inline-block;*/
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+.news-feed .left-container.text-right, .right-container.text-right {
+    text-align: right;
+    padding-right:12px;
+}
+.news-feed .left-container.text-left, .right-container.text-left {
+    text-align: left;
+}
+.news-feed .left-container.text-center, .right-container.text-center {
+    text-align: center;
+}
+.newsfeed-border {
+    border-top: 1px solid grey;
+}
+.news-feed.no-headline{
+    margin-top:-30px;
+}
+@media screen and (max-width: 539px){
+    .news-feed div.banner-container div{
+        display:block;
+        width:100%;
+        text-align:center;
+    }
+    .news-feed div.banner-container {
+        display:block;
+    }
+}
+/*edge issue*/
+.edge-browser .news-feed div.banner-container div a.c-call-to-action:not(.glyph-play):after{
+margin-top:4px;
+}
+.news-feed div.banner-container a.email-link:after{
+    content: "\E715";
+    font-size: 18px;   
+    top:1px; 
+}
+    
+

@@ -1,0 +1,23 @@
+.form-layout{
+    padding-top:30px;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 10px 0 26px #ccc;
+    margin-top: 20px;
+}
+.l1{
+    text-align: center;
+}
+div.l1:not(.form-group)>label{
+    padding: 7px 26px;
+    background-color: #D6410A ;
+    color: #ffffff;
+    font-weight: 600;   
+    margin-bottom: 24px;
+}
+div.l1:not(.form-group) .l2>label {
+    color: white;
+    padding: 2px 10px;
+    border-radius: 9px;
+    background-color: #2F2F2F;    
+}

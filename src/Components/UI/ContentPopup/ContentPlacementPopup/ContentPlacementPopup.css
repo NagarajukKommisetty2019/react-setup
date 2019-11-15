@@ -1,0 +1,39 @@
+.ContentPlacementPopup {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 25px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    
+}
+.ContentPlacementPopup .title{
+    font-weight: 600;
+}
+.ContentPlacementPopup .subTitle{
+    margin : 15px 0;
+}
+.ContentPlacementPopup .closeButton{
+    margin-top: -13px;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid;
+    padding: 0px 5px;
+    cursor: pointer;
+    float: right;
+}
+@media (min-width: 600px) {
+    .ContentPlacementPopup {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
+[data-colperrowcount='4'].content-panel-V2 .contentpanel-content div{
+    padding-left: 10px;
+
+}

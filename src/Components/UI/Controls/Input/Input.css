@@ -1,0 +1,10 @@
+.form-control{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+.form-group label{
+    width:17%;
+    text-align: left;
+    vertical-align: top;
+}
