@@ -18,7 +18,7 @@ const SpeakerCard = (props)=>{
                 <div className="text-content pl-1 pr-1 pb-0 xs-pb-0 pt-1">
                     <h3 className="c-heading-5 fw-6 pt-0 pb-0 content-title" >{props.title}</h3>
                     <h4 className="c-paragraph-3 pt-1 pb-0 content-subtitle" >{props.subTitle} </h4>
-                    <a  onClick={props.clicked} href="#" className="c-call-to-action f-lightweight c-glyph open-speaker-popup" 
+                    <a  onClick={props.clicked} href="JavaScript:Void(0);" className="c-call-to-action f-lightweight c-glyph open-speaker-popup" 
                         ><span>{props.linkText}</span> 
                     </a>
                 </div>

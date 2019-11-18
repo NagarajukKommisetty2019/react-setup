@@ -15,12 +15,13 @@ class SpeakerCards extends Component{
           show:false
         })
       }
-    showPopupData=(linkData)=>{         
+    showPopupData=(linkData)=>{    
+             
             this.setState({
             show:true,
             popupData:linkData
         }) 
-        return false;               
+                      
     }
     componentDidMount(){
         Axios.get('https://speaker-cards.firebaseio.com/speaker-card.json')
