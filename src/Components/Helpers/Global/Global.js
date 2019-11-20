@@ -11,6 +11,12 @@ let H1orH2="";
     } 
 return H1orH2;   
 }
+export const setAttr=(selecter,attr,value)=>{
+    let elements=document.querySelectorAll(selecter);         
+    Array.prototype.forEach.call(elements, (el, i)=>{
+        el.setAttribute(attr,value)            
+    });
+}
 export const setMaxHeights=(selecterPath)=>{
     let selectedHeights=document.querySelectorAll(selecterPath);       
     let pheightArray = Array.from(selectedHeights).map(function (p){            
