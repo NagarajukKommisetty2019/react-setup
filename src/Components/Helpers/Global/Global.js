@@ -1,16 +1,29 @@
 import React from 'react'
 export const isH1orH2=(isH2,headingText,classes)=>{
 let H1orH2="";
+
     if (isH2.toLowerCase() == "h2")
     {
-        H1orH2= <h2 class={classes}>{headingText}</h2>;
+        H1orH2= <h2 className={classes}>{headingText}</h2>;
     }
     else
     {
-        H1orH2= <h1 class={classes}>{headingText}</h1>;
+        H1orH2= <h1 className={classes}>{headingText}</h1>;
     } 
 return H1orH2;   
 }
+export const isH2orH3=(isH3,headingText,classes)=>{
+    let H2orH3=""
+        if (isH3.toLowerCase() == "h3")
+        {
+            H2orH3= <h3 className={classes}>{headingText}</h3>;
+        }
+        else
+        {
+            H2orH3= <h2 className={classes}>{headingText}</h2>;
+        } 
+    return H2orH3;   
+    }
 export const setMaxHeights=(selecterPath)=>{
     let selectedHeights=document.querySelectorAll(selecterPath);       
     let pheightArray = Array.from(selectedHeights).map(function (p){            

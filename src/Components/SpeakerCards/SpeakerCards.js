@@ -2,7 +2,7 @@ import React,{Component} from "react";
 import Axios from "axios";
 import SpeakerCard from "./SpeakerCard/SpeakerCard";
 import ContentPlacementPopup from '../UI/ContentPopup/ContentPlacementPopup/ContentPlacementPopup'
-import * as Globals from '../Helpers/Global/Global'
+import * as Globals from '../Helpers/Global/Global';
 import "./SpeakerCards.css";
 class SpeakerCards extends Component{
     state={
