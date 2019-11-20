@@ -9,13 +9,15 @@ const MultiColdataSource=SpeakersDS.MultiCol1.HomeMultiCol1();
 const OMulticoldata=Object.keys(MultiColdataSource).map((key)=>{
     return MultiColdataSource[key]            
 })
+const AccordionData = AccordionDs.AccordionOthersDS();
 const Others=() =>(
         <Route path="/en-us/others" exact>
             <Hero compData={HomeDS.Hero1.Hero1()}/>            
             <Comps.MultiColumn colCount='4' compData={OMulticoldata}/>
             <Comps.NewsFeed compData={SpeakersDS.Footer1.HomeFooter1()}/>                                    
             <Comps.MultiColumn colCount='3' compData={OMulticoldata}/> 
-            <Comps.NewsFeed compData={SpeakersDS.NewsFeed1.HomeNewsFeed1()}/>           
+            <Comps.NewsFeed compData={SpeakersDS.NewsFeed1.HomeNewsFeed1()}/>    
+            <Comps.Accordion compData={AccordionData}  />   
         </Route>
 )
 export default Others;
