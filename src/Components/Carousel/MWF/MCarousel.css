@@ -1,11 +1,13 @@
 .mwf-hero-carousel .m-hero div.c-carousel-p ul, .mwf-hero-carousel .m-hero div.c-carousel-p ul > li.show.f-active {
 	display:block !important;
+	margin-bottom: 0;
 }
 .mwf-hero-carousel .m-hero div.c-group .c-sequence-indicator button.show {
 	display:inline-block !important;
 }
 .mwf-hero-carousel .m-hero div.c-carousel-p ul > li.show, .mwf-hero-carousel .m-hero div.c-carousel-p ul > li:not(.show) {
 	display:none !important;
+	
 }
 .mwf-hero-carousel .m-hero-item > div > div {
 	max-width:none;

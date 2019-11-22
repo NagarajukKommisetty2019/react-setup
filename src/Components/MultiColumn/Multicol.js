@@ -6,12 +6,13 @@ import './Multicol.css'
 class MultiCol extends Component{              
     componentDidMount(){  
         //console.log("yes");
-        Globals.setMaxHeights(".multi-col .content-column p"); 
-        // setTimeout(()=>{            
-        //     window.addEventListener("resize",()=>{
-        //         Globals.setMaxHeights(".multi-col .content-column p");
-        //     });
-        // },500);                    
+         
+        setTimeout(()=>{    
+            Globals.setMaxHeights(".multi-col .content-column p");        
+            // window.addEventListener("resize",()=>{
+            //     Globals.setMaxHeights(".multi-col .content-column p");
+            // });
+        },200);                    
     }
     render(){                             
         const cols=[];         

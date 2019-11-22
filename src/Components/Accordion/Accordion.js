@@ -7,7 +7,7 @@ import "../Accordion/Accordion.css";
 class Accordion extends Component{
     state={
         componentData :  {},
-        expandCollapseAllText : "expand All"
+        expandCollapseAllText : "Expand All"
     }
     componentDidMount(){
         this.setState({
@@ -16,7 +16,7 @@ class Accordion extends Component{
     }
     showHideCurrentTab(accordionTabsData,index){      
         Object.values(accordionTabsData)[index].currentState=="collapse"?(Object.values(accordionTabsData)[index].currentState="expand"):Object.values(accordionTabsData)[index].currentState="collapse"
-        Object.values(accordionTabsData)[index].currentState=="collapse"?this.state.expandCollapseAllText="expand All":this.state.expandCollapseAllText=this.state.expandCollapseAllText
+        Object.values(accordionTabsData)[index].currentState=="collapse"?this.state.expandCollapseAllText="Expand All":this.state.expandCollapseAllText=this.state.expandCollapseAllText
         this.setState({
             componentData:accordionTabsData
         });  
@@ -25,7 +25,7 @@ class Accordion extends Component{
 
         let currentExpCollText = this.state.expandCollapseAllText;
         let newTabState = "";
-        if(currentExpCollText == "expand All"){
+        if(currentExpCollText == "Expand All"){
             newTabState = "expand"          
            Object.keys(accordionTabsData).map((key,index)=>{
                 
@@ -34,7 +34,7 @@ class Accordion extends Component{
                     Object.values(accordionTabsData)[index].currentState = newTabState               
             }
         })
-            currentExpCollText = "collapse All"
+            currentExpCollText = "Collapse All"
         }
         else{
             newTabState = "collapse"       
@@ -44,7 +44,7 @@ class Accordion extends Component{
                     Object.values(accordionTabsData)[index].currentState = newTabState                   
                 }
             })
-            currentExpCollText = "expand All"
+            currentExpCollText = "Expand All"
         }       
         this.setState({
                 expandCollapseAllText : currentExpCollText,

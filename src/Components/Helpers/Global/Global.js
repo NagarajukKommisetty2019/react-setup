@@ -12,18 +12,12 @@ let H1orH2="";
     } 
 return H1orH2;   
 }
-export const isH2orH3=(isH3,headingText,classes)=>{
-    let H2orH3=""
-        if (isH3.toLowerCase() == "h3")
-        {
-            H2orH3= <h3 className={classes}>{headingText}</h3>;
-        }
-        else
-        {
-            H2orH3= <h2 className={classes}>{headingText}</h2>;
-        } 
-    return H2orH3;   
-    }
+export const setAttr=(selecter,attr,value)=>{
+    let elements=document.querySelectorAll(selecter);         
+    Array.prototype.forEach.call(elements, (el, i)=>{
+        el.setAttribute(attr,value)            
+    });
+}
 export const setMaxHeights=(selecterPath)=>{
     let selectedHeights=document.querySelectorAll(selecterPath);       
     let pheightArray = Array.from(selectedHeights).map(function (p){            

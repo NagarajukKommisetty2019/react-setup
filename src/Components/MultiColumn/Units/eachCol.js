@@ -27,7 +27,7 @@ const eachCol=React.forwardRef((props,ref)=>{
     }
     return(
         <div className={classes} data-grid={props.colCount}>
-                <div className="m-content-placement-item content-column-item pb-5 s-pb-4 xs-pb-2 mt-1 f-precise-click">
+                <div className="m-content-placement-item content-column-item pb-1 s-pb-2 xs-pb-2 mt-1 f-precise-click">
                     {imageRender}
                     {props.bodyCopy}                                                   
                 </div>                 

@@ -27,7 +27,7 @@ Object.keys(getMCUIData).map((key)=>{
                 const l3Controls=[];
                 Object.keys(L3Obj).map((L3Key)=>{                    
                     if(typeof(L3Obj[L3Key])==='string'){
-                        console.log(L3Key)
+                        //console.log(L3Key)
                         l3Controls.push(<Input classes="l3" key={L3Key} type="text" id={L3Key} placeholder="Enter Text" 
                         labelName={Globals.capitalize(L3Key)} ivalue={L3Obj[L3Key]} inputChange={(e)=>e.target.value}/>)
                     }

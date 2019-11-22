@@ -11,12 +11,12 @@ export const Hero1 = () => {
          outerPadding:"",
          fontTheme:"theme-dark  dark-background",
          bgColor:"bg-white",         
-         vp0ImgURL: "http://fpoimg.com/540x500?text=Hero&bg_color=050000",
-         vp1ImgURL: "http://fpoimg.com/768x500?text=Hero&bg_color=050000",
-         vp2ImgURL: "http://fpoimg.com/1084x500?text=Hero&bg_color=050000",
-         vp3ImgURL: "http://fpoimg.com/1400x500?text=Hero&bg_color=050000",
-         vp4ImgURL: "http://fpoimg.com/1779x500?text=Hero&bg_color=050000",
-         vp5ImgURL: "http://fpoimg.com/2000x500?text=Hero&bg_color=050000",
+         vp0ImgURL: "https://fpoimg.com/540x500?text=Hero&bg_color=050000",
+         vp1ImgURL: "https://fpoimg.com/768x500?text=Hero&bg_color=050000",
+         vp2ImgURL: "https://fpoimg.com/1084x500?text=Hero&bg_color=050000",
+         vp3ImgURL: "https://fpoimg.com/1400x500?text=Hero&bg_color=050000",
+         vp4ImgURL: "https://fpoimg.com/1779x500?text=Hero&bg_color=050000",
+         vp5ImgURL: "https://fpoimg.com/2000x500?text=Hero&bg_color=050000",
          imgAlt: "image alt Hero1 ",                 
      
     }
