@@ -58,7 +58,7 @@ class Accordion extends Component{
     let accordionTabs = Object.keys(accordionTabsData).map((key,index)=>{
         if(index==0)
         {        
-            heading = Globals.isH1orH2("h2",accordionTabsData[key],"c-heading-3 pt-0 pb-0 mb-3 text-left");            
+            heading = accordionTabsData[key]?Globals.isH1orH2("h2",accordionTabsData[key],"c-heading-3 pt-0 pb-0 mb-3 text-left"):null;            
         }
     else{
        return( <AccordionTab
